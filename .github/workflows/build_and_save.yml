@@ -39,4 +39,4 @@ jobs:
       with:
         name: retroarch-android-${{ steps.slug.outputs.sha8 }}
         path: |
-              ./
+               /home/runner/work/ndk-samples/ndk-samples/
