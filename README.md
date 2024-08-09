@@ -1,4 +1,4 @@
-# Android NDK Samples
+# Android NDK Samples####
 
 [![build](https://github.com/android/ndk-samples/actions/workflows/build.yml/badge.svg)](https://github.com/android/ndk-samples/actions)
 
