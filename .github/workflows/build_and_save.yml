@@ -37,6 +37,6 @@ jobs:
         ./gradlew build
     - uses: actions/upload-artifact@v3
       with:
-        name: retroarch-android-${{ steps.slug.outputs.sha8 }}
+        name: NdkSample-build-${{ steps.slug.outputs.sha8 }}
         path: |
                /home/runner/work/ndk-samples/ndk-samples/
