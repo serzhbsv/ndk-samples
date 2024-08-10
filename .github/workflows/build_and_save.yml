@@ -30,7 +30,7 @@ jobs:
     - uses: pre-commit/action@v3.0.0
 
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+      uses: android-actions/setup-android@v4
 
     - name: build samples
       run: |
