@@ -43,4 +43,4 @@ jobs:
       with:
         name: NdkSample-build-${{ steps.slug.outputs.sha8 }}
         path: |
-               /home/runner/work/ndk-samples/ndk-samples/
+               /home/runner/work/ndk-samples/ndk-samples/native-media/app/build/outputs/
