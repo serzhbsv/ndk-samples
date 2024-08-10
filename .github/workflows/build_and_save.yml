@@ -24,7 +24,7 @@ jobs:
     - uses: pre-commit/action@v3.0.0
 
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v4
+      uses: android-actions/setup-android@v3
     
     - name: Get short SHA
       id: slug
@@ -33,7 +33,7 @@ jobs:
     - name: build samples
       run: |
         ./gradlew :native-activity:app:task
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: NdkSample-build-${{ steps.slug.outputs.sha8 }}
         path: |
