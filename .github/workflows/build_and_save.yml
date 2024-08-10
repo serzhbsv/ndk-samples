@@ -32,7 +32,7 @@ jobs:
       
     - name: build samples
       run: |
-        ./gradlew :native-activity:app:task
+        ./gradlew build
     - uses: actions/upload-artifact@v4
       with:
         name: NdkSample-build-${{ steps.slug.outputs.sha8 }}
