@@ -38,9 +38,9 @@ jobs:
       
     - name: build samples
       run: |
-        ./gradlew build
+        ./gradlew :native-activity:app:task
     - uses: actions/upload-artifact@v3
       with:
         name: NdkSample-build-${{ steps.slug.outputs.sha8 }}
         path: |
-               /home/runner/work/ndk-samples/ndk-samples/native-media/app/build/outputs/
+               /home/runner/work/ndk-samples/ndk-samples/native-activity/app/build/outputs/
